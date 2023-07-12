@@ -40,13 +40,14 @@ Follow these steps to run the Coffee React App project locally:
 
 1. Install dependencies using npm:
 
-````bash
+```bash
  npm install
-
+```
 
 3. Start the development server:
  ```bash
   npm start
+```
 
 4. Open your browser and visit http://localhost:3000 to view the app.
 
