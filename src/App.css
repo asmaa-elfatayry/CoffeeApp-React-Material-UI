@@ -1,0 +1,42 @@
+*::selection {
+  background-color: gold;
+  color: navy;
+}
+
+.bg-header {
+  background-image: url("./assets/header-pic.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center center;
+}
+.title {
+  position: relative;
+  width: fit-content;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  right: -80px;
+
+  top: 15px;
+  background-color: #cfd0d6;
+  height: 2px;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  left: -80px;
+  top: 15px;
+  background-color: #cfd0d6;
+  height: 2px;
+}
+li {
+  list-style: none;
+  color: gray;
+  line-height: 29px;
+  font-size: 19px;
+}
