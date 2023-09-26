@@ -2,6 +2,10 @@
 
 This project is a simple React application created to learn Material-UI and practice building a project with it. It includes various sections like Home, About, Live Style, Products, Contact, Offers, and a Footer. The project does not use routing or Redux; it is intentionally kept simple to focus on learning Material-UI concepts.
 
+
+## live demo
+[demo](https://coffee-app-react-material-ui.vercel.app/)
+
 ## Videos
 
 To demonstrate the responsive nature of the Coffee React App, two videos have been created.
